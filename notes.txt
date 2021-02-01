@@ -1,0 +1,22 @@
+phases
+  - identify what we need, start w/ title and author
+  - explore the openLibrary api w/ postman
+  - log the required info, using just the first work
+  - get a random work instead of the first one
+  - manipulate the authors string
+  - construct & test the cover url
+  - change the DOM
+  - wire it up to the input
+
+
+phases
+- identify what we're after: title, authors, covers
+- explore the api w/ postman
+- fetch & log the parts of the data
+  - log the whole json, identify the works part
+  - get a random work
+  - title first, easy
+  - authors: join the string together
+  - cover: requires exploring the cover docs
+- append to the dom
+- wire the logging up to the input

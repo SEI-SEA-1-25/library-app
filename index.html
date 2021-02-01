@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Let's go to the library!</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <div class="form-container-full-width">
+        <div class="form-container">
+          <h1>Show me a book about...</h1>
+          <input type="text" id="subject-input">
+          <button id="subject-submit">Go!</button>
+        </div>
+      </div>
+
+      <div class="display-zone-full-width">
+        <div class="display-zone hidden">
+          <h3 id="display-title"></h3>
+          <img id="display-cover" src="" alt="">
+          <p>By: <span id="display-author"></span></p>
+        </div>
+
+        <div class="error-zone hidden">No results!</div>
+      </div>
+    </main>
+    <script src="app.js" async defer></script>
+  </body>
+</html>
