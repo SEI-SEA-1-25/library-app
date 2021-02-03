@@ -1,3 +1,33 @@
 body {
   background-image: url('https://images-na.ssl-images-amazon.com/images/I/71ol1jY8qQL._AC_SL1024_.jpg');
 }
+
+div {
+  background-color: gray;
+  width:25%;
+  margin:20px auto;
+}
+
+#div1{
+  padding: 20px;
+
+}
+
+
+form{
+left: 50%;
+}
+
+input{
+margin:20px;
+  left:50%;
+  margin:0 auto;
+}
+
+body{
+  text-align:center;
+}
+
+img{
+  height:300px;
+}
