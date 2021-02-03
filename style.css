@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 body {
   background-image: url('https://images-na.ssl-images-amazon.com/images/I/71ol1jY8qQL._AC_SL1024_.jpg');
+  text-align: center;
+  font-family: "Abril Fatface", sans-serif;
+}
+
+.search-box {
+  width: fit-content;
+  background: rgb(189, 189, 189);
+  margin: auto;
+  padding: 5px 20px 20px 20px;
+  border-radius: 10px;
+}
+
+#submit-button {
+  font-family: "Abril Fatface", sans-serif;
+}
+
+.book-container {
+}
+
+.book-container-gray {
+  background-color: rgb(189, 189, 189);
+  width: fit-content;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
