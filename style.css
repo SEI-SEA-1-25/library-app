@@ -1,3 +1,63 @@
+.main-container {
+display:flex;
+justify-content: center;
+flex-direction: column;
+margin:auto;
+width: 50%;
+
+}
+
+.upper-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-box {
+  display:flex;
+  justify-content: center;
+  border: 2px solid white;
+  color: white;
+  background-color: grey;
+  height: 10vw;
+  width: 70vw;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+}
+
+.submit{
+  border: 2px solid white;
+  color: white;
+  padding-top: 1%;
+}
+
+
 body {
   background-image: url('https://images-na.ssl-images-amazon.com/images/I/71ol1jY8qQL._AC_SL1024_.jpg');
+}
+
+
+.book-container{
+  background-color: grey;
+  height: 40vw;
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+
+
+
+}
+
+.book-cover {
+
+  border: 3px solid white;
+
+}
+
+.lower-container{
+  display:flex;
+  justify-content:center;
+  margin-top: 5%;
 }
